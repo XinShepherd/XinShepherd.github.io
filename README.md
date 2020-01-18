@@ -25,3 +25,16 @@ npm test
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+## Deploy to Github Pages
+
+```shell
+cd dist/
+git init
+git add .
+git commit -m "Deploying my awesome vue app"
+git push -f https://github.com/XinShepherd/XinShepherd.github.io.git master
+```
+
+## See
+[deploy to github pages](https://dev.to/tiim/how-i-use-vue-js-on-github-pages-45np)
